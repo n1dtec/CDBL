@@ -11,7 +11,7 @@ public class CurrencyDescriptionAPI {
 
     @GET
     public String welcome(){
-        return "Welcome to the 'Currency Description by Location' Project developed which is a simple RESTful API project developed by Harnidh Kaur";
+        return "Welcome to the 'Currency Description by Location' Project which is a simple RESTful API project developed by Harnidh Kaur";
     }
 
     @Path("/ip")
@@ -28,7 +28,7 @@ public class CurrencyDescriptionAPI {
 
     }
 
-    @Path("/currencyCode")
+    @Path("/countryInfo")
     @GET
     public JsonObject getCountryInfo(){
 
