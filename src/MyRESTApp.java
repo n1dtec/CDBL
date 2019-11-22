@@ -11,7 +11,7 @@ public class MyRESTApp extends Application {//The method returns a non-empty col
     @Override
     public Set<Class<?>> getClasses() {
         HashSet h = new HashSet<Class<?>>();
-        h.add(CurrencyExchangeAPI.class);
+        h.add(CurrencyDescriptionAPI.class);
         return h;
     }
 }
