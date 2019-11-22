@@ -1,3 +1,9 @@
+/*
+ * Author : Harnidh Kaur
+ * Date : 11/21/2019
+ * Description : This is the driver class of the project which contains the implementation of three REST APIs. Please check the README for more information about running the project.
+ */
+
 import javax.json.JsonObject;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
